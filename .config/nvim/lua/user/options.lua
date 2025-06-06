@@ -9,11 +9,11 @@ o.wrap = false -- duh
 o.autoindent = true -- keeps indent when enter
 o.expandtab = true -- uses spaces instead of tabs
 o.shiftround = true -- rounds tabbing to shiftwidth from << or >>
-o.shiftwidth = 2 -- number of spaces to use for autoindents
+o.shiftwidth = 4 -- number of spaces to use for autoindents
 o.smartindent = true -- something about curly brace indentation
 o.smarttab = true -- links shiftwidtm and tab key
 o.softtabstop = -1 -- -1 merges this with shiftwidth
-o.tabstop = 2 -- literally shiftwidth 
+o.tabstop = 4 -- literally shiftwidth 
 -- o.vartabstop -- idk what this does but kinda advanced i think
 
 -- SEARCHING
@@ -26,7 +26,8 @@ o.termguicolors = true -- full color terminals use 24-bit color now
 o.signcolumn = "yes" -- show sign column always with or without signs
 
 -- CLIPBOARD
-o.clipboard:append("unnamedplus") -- use system clipboard as default register
+-- o.clipboard:append("unnamedplus") -- use system clipboard as default register
+o.clipboard = 'unnamedplus'
 
 -- SPLIT WINDOWS
 o.splitright = true -- splits vertical windows to the right
