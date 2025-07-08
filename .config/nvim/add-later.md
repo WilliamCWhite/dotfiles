@@ -33,3 +33,8 @@ FIX CERTAIN LITTLE ERRORS
     up and down arrow keys in menus
         May keep for more vim (no arrowkeys)
 [ ] Auto wrap/unwrap for markdown files
+
+MAKE THINGS LOOK BETTER
+- Implementing neoscroll
+- Actually having custom themes for neovim and for tmux?
+  - The thing is I actually really like whatever it is right now
